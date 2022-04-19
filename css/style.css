@@ -1,0 +1,631 @@
+@import 'stylesheet.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --circle: 'Circe Rounded';
+  --rob: 'Roboto';
+}
+
+body {
+  font-family: var(--circle);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.zafar__bot{
+  display: flex;
+}
+
+.zafar {
+  width: 100%;
+ 
+  background: #FFFBED;
+  padding-left: 50px;
+}
+
+.zafar__block {
+  display: flex;
+  gap: 5px;
+  padding-top: 30px;
+
+}
+
+.zafar__iton {
+  height: 22px;
+  font-family: 'Circe Rounded';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #808080;
+}
+
+.zafar__icon {
+
+  height: 7.33px;
+  border: 1px solid #808080;
+  margin-top: 9px;
+}
+
+.zafar__itom {
+  height: 22px;
+  font-family: 'Circe Rounded';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #FD9339;
+}
+
+
+
+
+
+.zafar__button {
+  width: 280px;
+  
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: white;
+}
+
+
+
+
+
+
+
+
+.zafar__top {
+  width: 16.5px;
+  height: 15.58px;
+  margin-top: 2px;
+}
+
+
+.zafar__noren {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 48px;
+  /* border-radius: 6px; */
+
+  display: flex;
+  gap: 5px;
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.zafar__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4E2D2D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.zafar__daron {
+  display: flex;
+ justify-content: space-between;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+ padding: 11px 19px 11px 16px;
+
+
+}
+
+.zafar__title2 {
+
+ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafar__erder {
+  padding-top: 10px;
+
+}
+
+
+.zafar__daron2 {
+ 
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding: 11px 19px 11px 16px;
+}
+
+
+.zafar__erder2 {
+  margin-top: 8px;
+}
+
+
+
+.zafar__daron3 {
+  
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__title3 {
+ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafar__erder3 {
+  margin-top: 8px;
+}
+
+
+.zafar__daron5 {
+  
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__title5 {
+ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafar__erder5 {
+  margin-top: 9px;
+}
+
+.zafar__daron7{
+ 
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__title7{
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #292929;
+}
+
+
+.zafar__erder7{
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+.zafar__daron4 {
+  
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__title4 {
+ 
+  font-family: var(--rob);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafar__erder4{
+  margin-top: 5px;
+}
+
+
+.zafar__button2{
+  width: 280px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: white;
+  margin-top: 25px;
+}
+
+.zafar__werdon{
+  font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #4E2D2D;
+}
+
+
+.zafar__nasion{
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  display: flex;
+ justify-content: space-between;
+ padding: 11px 19px 11px 16px;
+}
+
+.zafar__new{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #292929;
+}
+
+.zafar__ferst{
+  margin-top: 7px;
+}
+
+.zafar__heroun{
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__heroun2{
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafat__opson2{
+  margin-top: 7px;
+}
+
+.zafar__doorin{
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__doorin2{
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafar__loren2{
+  margin-top: 7px;
+}
+
+.zafar__erfon{
+ 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__erfon2{
+  width: 189px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.zafar__noer2{
+  margin-top: 7px;
+}
+
+
+.zafar__torun{
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__torun2{
+ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #292929;
+}
+
+.zafar__saefl2{
+  margin-top: 7px;
+}
+
+
+.zafar__hovson{
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__hovson2{
+  
+font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #292929;
+}
+
+.zafar__lorem2{
+  margin-top: 7px;
+}
+
+.zafar__asfor{
+  
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 19px 11px 16px;
+}
+
+.zafar__asfor2{
+ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #292929;
+}
+
+.zafar__deros2{
+  margin-top: 7px;
+}
+
+
+.zafar__erfon{
+  position: relative;
+  max-width: 280px;
+  width: 100%;
+}
+
+.zafar__rovson{
+  background: #FFFBED;
+  margin-top: 26px;
+}
+
+
+.zafar__eround{
+display: flex;
+margin-left: 44px;
+margin-top: 30px;
+font-family: 'CirceRounded';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 40px;
+letter-spacing: 0.01em;
+color: #4E2D2D;
+}
+
+.zafar__toer{
+  position: absolute;
+  padding-top: 87px;
+  padding-left: 19px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.zafar__troven {
+
+  height: 100%;
+}
+
+.zafar__roxen{
+  
+font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.zafar__rodvers{
+  font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FD9339;
+
+}
+
+
+.zafar__tooften{
+  display: flex;
+}
+.zafar__tisroon{
+ width: 3px;
+ height: 6px;
+ margin-left: 7px;
+ margin-top: 9px;
+}
+.btn{
+  transition: .5s;
+}
+
+.btn:hover{
+  background: #FBE8BB;
+  color: #4E2D2D;
+}
+
+.zafar__hierod{
+  margin-top: 80px;
+  font-family: 'Circe Rounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #4E2D2D;
+}
+
+.zafar__erous{
+  width: 280px;
+  height: 350px;
+  background: #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+margin-top: 30px;
+}
+
+
+
+.zafar__resdon{
+  font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+color: #4E2D2D;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.zafar__text{
+  font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+padding-left: 20px;
+}
+
+.zafar__tips{
+  font-family: 'Circe Rounded';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FD9339;
+}
+
+.zafar__rovsen{
+  display: flex;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.zafar__ryofer{
+  height: 9px;
+  padding-left: 9px;
+  margin-top: 9px;
+}
+.zafar__cards2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.zafar__vosvon{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.zafar__btn{
+  width: 212px;
+height: 48px;
+background: #FD9339;
+border-radius: 5px;
+border: none;
+outline: none;
+}
+
+.zafar__nods{
+  font-family: 'CirceRounded';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
